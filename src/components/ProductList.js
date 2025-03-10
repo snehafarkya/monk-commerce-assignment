@@ -168,7 +168,6 @@ const ProductItem = ({
           {product.variants.map((variant, vIndex) => {
             const isEditingVariantDiscount =
               editingDiscounts[`${product.id}-${variant.id}`];
-
             return (
               <div
                 key={variant.id}

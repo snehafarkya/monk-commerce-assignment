@@ -14,6 +14,7 @@
 - 🔍 **Search Products** - Quickly find products using a search bar.
 - ✅ **Select Products & Variants** - Choose individual products or specific variants with a single click.
 - 🔄 **Dynamic Selection** - Displays selected products and allows modifications.
+- 🔃 **Drag and Drop** - You can reorder or drag-and-drop the products. 
 - 🎨 **Responsive UI** - Works seamlessly across different mobile sizes.
 
 ## 🛠️ Tech Stack
