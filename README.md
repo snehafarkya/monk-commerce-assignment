@@ -53,5 +53,5 @@ This project is licensed under the **MIT License**.
 
 ---
 
-🎉 **Enjoy using the Monk Commerce Assignment!** Happy coding! 🚀
+Have a great day! 🌻
 
