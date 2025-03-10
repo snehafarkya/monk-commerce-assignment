@@ -92,7 +92,7 @@ const ProductPicker = ({ onSelect, onClose, selectedProducts = [] }) => {
 
   return (
     <div className="fixed inset-0 bg-gray-600 bg-opacity-50 flex justify-center items-center">
-      <div className="bg-white p-4 rounded shadow-md max-w-[663px] w-[663px] max-h-[612px] h-[612px]">
+      <div className="bg-white p-4 rounded shadow-md max-w-[663px] md:w-[663px] max-h-[612px] h-[612px]">
         <div className="font-medium text-lg flex justify-between border-b items-center mb-4 pb-4">
           Select Products
           <button onClick={onClose} className="h-fit">x</button>

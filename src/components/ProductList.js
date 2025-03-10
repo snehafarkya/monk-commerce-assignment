@@ -136,10 +136,12 @@ const ProductItem = ({
   const isEditingDiscount = editingDiscounts[`${product.id}-product`];
 
   return (
-    <div className="p-2 mb-2 ">
-      <div className="flex cursor-move gap-4 text-sm justify-between items-center">
+    <div className="p-2 pb-4 mb-4 border-b border-[#0000001A] ">
+      <div className="flex cursor-move gap-4 text-sm justify-between  items-center">
+        
         <List
-          titleClass={"rounded-sm w-[400px]"}
+        index={index}
+          titleClass={"rounded-sm md:w-[400px] min-w-[200px]"}
           title={product.title}
           isEditingVariantDiscount={isEditingDiscount}
           discountButton={() => toggleEditingDiscount(product.id)}
@@ -179,7 +181,8 @@ const ProductItem = ({
                 onDrop={(e) => handleDrop(e, vIndex, product.id)} // Use product.id here, not variant.id
               >
                 <List
-                  titleClass={"rounded-[30px]  w-[350px]"}
+                inputClass={'rounded-[30px] '}
+                  titleClass={"rounded-[30px]  md:w-[350px] min-w-[150px]"}
                   title={variant.title}
                   isEditingVariantDiscount={isEditingVariantDiscount}
                   discountButton={() =>
